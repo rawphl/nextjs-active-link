@@ -11,7 +11,7 @@ export default function Navigation({ items }) {
     }
     return (
         <nav className={styles.navigation}>
-            <Link href="/">
+            <Link href="/" passHref>
                 <a><Image src={logo} alt="logo" /></a>
             </Link>
 
