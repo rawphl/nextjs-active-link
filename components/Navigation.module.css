@@ -1,0 +1,31 @@
+.navigation {
+    background: darkgrey;
+    color: black;
+    display: flex;
+    padding: 0.5em;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+.navigation ul {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style-type: none;
+    margin-left: auto;
+}
+
+.navigation ul li a {
+    display: block;
+    padding: 0.5em;
+}
+
+.navigation ul li a:hover {
+    color: white;
+}
+
+.navigation ul li a.active {
+    color: blue;
+}
